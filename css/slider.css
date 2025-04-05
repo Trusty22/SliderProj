@@ -1,0 +1,58 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    /*GOOD*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.fa.fa-arrow-left.fa-5x {
+    cursor: pointer;
+}
+
+.fa.fa-arrow-right.fa-5x {
+    cursor: pointer;
+}
+
+.frame {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: all 1s ease;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    gap: 30px;
+}
